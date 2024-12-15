@@ -1,0 +1,20 @@
+<!--INFO: this file is not being used in any test yet, it is example on how many properties can IVEF have-->
+<MSG_VesselData xmlns="urn:http://www.ivef.org/XMLSchema/IVEF/0.1.5">
+    <Header Version="0.1.5" MsgRefId="c30f8b9a-9ecc-4470-9ba8-0b0c80a95b19"/>
+    <Body>
+        <VesselData>
+            <PosReport Id="1332302690" SourceId="22" SourceName="SPATIONAV_V2" UpdateTime="2022-08-09T16:12:14.000Z"
+                       SOG="0.0" COG="0.0" Lost="no" RateOfTurn="0.0" Orientation="0.0" NavStatus="5" UpdSensorType="2">
+                <Pos Lat="43.40127182006836" Long="3.7160067558288574"/>
+            </PosReport>
+            <StaticData Id="5d62fac1-1fc2-31dd-be06-05076ca01922" SourceName="spationav" Source="2" Length="90.0"
+                        Breadth="14.0" Callsign="PHKS" ShipName="DAMSTERDIJK" ObjectType="2" IMO="9346665"
+                        MMSI="244683000" CountryFlag="XXX" ShipType="34"/>
+            <Voyage Id="e8661f28-a249-491d-80ec-7cca213053ed" SourceName="spationav" Source="2" Destination="ESMOT"
+                    PersonsOnBoard="7.0" Draught="6.35" CargoType="0" ETA="2022-08-27T19:30:00.000Z"/>
+            <TaggedItem Key="ATTENTION_LEVEL" Value="NOT_REACHED"/>
+            <TaggedItem Key="creationDate" Value="2022-08-09T16:13:38.073Z"/>
+            <TaggedItem Key="AIS_SHIP_TYPE" Value="0"/>
+        </VesselData>
+    </Body>
+</MSG_VesselData>

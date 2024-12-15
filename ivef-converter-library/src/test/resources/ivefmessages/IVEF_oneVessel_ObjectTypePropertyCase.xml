@@ -1,0 +1,12 @@
+<MSG_VesselData xmlns="urn:http://www.ivef.org/XMLSchema/IVEF/0.1.5">
+    <Header Version="0.1.5" MsgRefId="c30f8b9a-9ecc-4470-9ba8-0b0c80a95b19"/>
+    <Body>
+        <VesselData>
+            <PosReport Id="1332302690" SourceId="22" UpdateTime="2022-08-09T16:12:14.000Z"
+                       SOG="0.0" COG="0.0" Lost="no">
+                <Pos Lat="43.40127182006836" Long="3.7160067558288574"/>
+            </PosReport>
+            <StaticData Id="5d62fac1-1fc2-31dd-be06-05076ca01922" SourceName="spationav" Source="2" ObjectType="2"/>
+        </VesselData>
+    </Body>
+</MSG_VesselData>

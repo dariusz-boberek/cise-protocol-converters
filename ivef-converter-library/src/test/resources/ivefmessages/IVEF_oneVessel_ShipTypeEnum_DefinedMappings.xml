@@ -1,0 +1,42 @@
+<MSG_VesselData xmlns="urn:http://www.ivef.org/XMLSchema/IVEF/0.1.5">
+    <Header Version="0.1.5" MsgRefId="c30f8b9a-9ecc-4470-9ba8-0b0c80a95b19"/>
+    <Body>
+        <VesselData>
+            <PosReport Id="1" SourceId="1" UpdateTime="2000-01-01T00:00:00.001Z" SOG="8.0" COG="8.0" Lost="no">
+                <Pos Lat="1.0" Long="1.0"/>
+            </PosReport>
+            <StaticData Id="1" SourceName="spationav" Source="2" ShipType="30"/>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+        <VesselData>
+            <PosReport Id="2" SourceId="1" UpdateTime="2000-01-01T00:00:00.001Z" SOG="8.0" COG="8.0" Lost="no">
+                <Pos Lat="1.0" Long="1.0"/>
+            </PosReport>
+            <StaticData Id="2" SourceName="spationav" Source="2" ShipType="40"/>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+        <VesselData>
+            <PosReport Id="3" SourceId="1" UpdateTime="2000-01-01T00:00:00.001Z" SOG="8.0" COG="8.0" Lost="no">
+                <Pos Lat="1.0" Long="1.0"/>
+            </PosReport>
+            <StaticData Id="3" SourceName="spationav" Source="2" ShipType="20"/>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+        <VesselData>
+            <PosReport Id="4" SourceId="1" UpdateTime="2000-01-01T00:00:00.001Z" SOG="8.0" COG="8.0" Lost="no">
+                <Pos Lat="1.0" Long="1.0"/>
+            </PosReport>
+            <StaticData Id="4" SourceName="spationav" Source="2" ShipType="31"/>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+        <VesselData>
+            <PosReport Id="5" SourceId="1" UpdateTime="2000-01-01T00:00:00.001Z" SOG="8.0" COG="8.0" Lost="no">
+                <Pos Lat="1.0" Long="1.0"/>
+            </PosReport>
+            <StaticData Id="5" SourceName="spationav" Source="2" ShipType="90"/>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+    </Body>
+</MSG_VesselData>
+
+

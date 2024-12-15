@@ -1,0 +1,33 @@
+<MSG_VesselData xmlns="urn:http://www.ivef.org/XMLSchema/IVEF/0.1.5">
+    <Header Version="0.1.5" MsgRefId="c30f8b9a-9ecc-4470-9ba8-0b0c80a95b19"/>
+    <Body>
+        <VesselData>
+            <PosReport Id="1" SourceId="122" UpdateTime="2022-08-09T15:39:20.148Z" SOG="7.562333106994629"
+                       COG="118.5" Lost="no" UpdSensorType="1">
+                <Pos Lat="27.791608333333333" Long="-132.6254"/>
+            </PosReport>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+        <VesselData>
+            <PosReport Id="2" SourceId="122" UpdateTime="2022-08-09T15:39:20.148Z" SOG="7.562333106994629"
+                       COG="118.5" Lost="no" UpdSensorType="2">
+                <Pos Lat="27.791608333333333" Long="-132.6254"/>
+            </PosReport>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+        <VesselData>
+            <PosReport Id="3" SourceId="122" UpdateTime="2022-08-09T15:39:20.148Z" SOG="7.562333106994629"
+                       COG="118.5" Lost="no" UpdSensorType="4">
+                <Pos Lat="27.791608333333333" Long="-132.6254"/>
+            </PosReport>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+        <VesselData>
+            <PosReport Id="4" SourceId="122" UpdateTime="2022-08-09T15:39:20.148Z" SOG="7.562333106994629"
+                       COG="118.5" Lost="no" UpdSensorType="5">
+                <Pos Lat="27.791608333333333" Long="-132.6254"/>
+            </PosReport>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+    </Body>
+</MSG_VesselData>

@@ -1,0 +1,18 @@
+<MSG_VesselData xmlns="urn:http://www.ivef.org/XMLSchema/IVEF/0.1.5">
+    <Header Version="0.1.5" MsgRefId="c30f8b9a-9ecc-4470-9ba8-0b0c80a95b19"/>
+    <Body>
+        <VesselData>
+            <PosReport Id="-2016043836" SourceId="122" UpdateTime="2022-08-09T15:39:20.148Z"
+                       SOG="7.562333106994629" COG="118.5" Lost="no" RateOfTurn="1.0" Orientation="0.0" NavStatus="0"
+                       UpdSensorType="2">
+                <Pos Lat="27.791608333333333" Long="-132.6254"/>
+            </PosReport>
+            <StaticData Id="null" SourceName="spationav" Source="1" Callsign="V7FX5" ShipName="MEDITERRANEAN SEA"
+                        ObjectType="2" ShipType="70" IMO="9451006" MMSI="538007768" CountryFlag="ITA,POL"/>
+            <Voyage Id="null" SourceName="spationav" Source="1" CargoType="9" Destination="&gt;PE CLO"
+                    ETA="2022-08-27T19:30:00.000Z" Draught="8.9"/>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+            <TaggedItem Key="AIS_SHIP_TYPE" Value="79"/>
+        </VesselData>
+    </Body>
+</MSG_VesselData>

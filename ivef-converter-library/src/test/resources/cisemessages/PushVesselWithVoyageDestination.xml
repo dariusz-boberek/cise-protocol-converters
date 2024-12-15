@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns4:Push xmlns:ns4="http://www.cise.eu/servicemodel/v1/message/">
+    <ContextID>contextID-1</ContextID>
+    <CorrelationID>correlationID-4</CorrelationID>
+    <CreationDateTime>2023-04-26T00:01:43.446+02:00</CreationDateTime>
+    <MessageID>497ac355-93de-4dd4-8c84-bf0f46d60442</MessageID>
+    <Priority>High</Priority>
+    <RequiresAck>true</RequiresAck>
+    <Sender>
+        <ServiceID>eu.stakeholderB.service.VesselPushTest</ServiceID>
+        <ServiceOperation>Push</ServiceOperation>
+        <ServiceType>VesselService</ServiceType>
+        <Participant/>
+    </Sender>
+    <Recipient>
+        <ServiceID>eu.stakeholderA.service.VesselPushTest</ServiceID>
+        <ServiceOperation>Push</ServiceOperation>
+        <Participant/>
+    </Recipient>
+    <Payload xsi:type="ns4:XmlEntityPayload" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <InformationSecurityLevel>NonClassified</InformationSecurityLevel>
+        <InformationSensitivity>Green</InformationSensitivity>
+        <Purpose>NonSpecified</Purpose>
+        <EnsureEncryption>false</EnsureEncryption>
+        <!-- AIS message 5 -->
+        <Vessel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://cise.jrc.ec.europa.eu/datamodel/last/xsd/Vessel.xsd" xsi:schemaLocation="http://www.cise.eu/datamodel/v1/entity/location/ https://cise.jrc.ec.europa.eu/datamodel/last/xsd/entity/location/PortLocation.xsd http://www.cise.eu/datamodel/v1/entity/movement/ https://cise.jrc.ec.europa.eu/datamodel/last/xsd/entity/movement/Movement.xsd" xmlns:mov="http://www.cise.eu/datamodel/v1/entity/movement/" xmlns:loc="http://www.cise.eu/datamodel/v1/entity/location/">
+            <Name>ABERIII</Name><!-- Name -->
+            <InvolvedEventRel>
+                <Event xsi:type="mov:Movement">
+                    <Metadata>
+                        <Comments></Comments>
+                    </Metadata>
+                    <LocationRel>
+                        <Location xsi:type="loc:PortLocation">
+                            <LocationCode>FRLEH</LocationCode><!-- Destination (if a LOCODE is used) -->
+                            <PortName>Le Havre</PortName><!-- Destination (if a port) -->
+                        </Location>
+                        <DateTime><StartDate>2017-06-23</StartDate><StartTime>13:30:00Z</StartTime></DateTime> <!-- ETA -->
+                        <LocationRole>EndPlace</LocationRole>
+                        <SourceType>Declaration</SourceType>
+                    </LocationRel>
+                    <MovementType>Voyage</MovementType>
+                </Event>
+            </InvolvedEventRel>
+            <Beam>20</Beam><!-- Dimension/ reference for position : C+D-->
+            <CallSign>MTDM5</CallSign><!-- Call Sign -->
+            <Draught>18.5</Draught> <!-- maximum present static draught -->
+            <IMONumber>9074729</IMONumber><!-- IMO number -->
+            <Length>30</Length><!-- Dimension/ reference for position : A+B-->
+            <MMSI>232000000</MMSI><!-- User ID -->
+            <ShipType>OilTanker</ShipType><!-- mapping AIS codes - CISE codes -->
+        </Vessel>
+    </Payload>
+</ns4:Push>

@@ -1,0 +1,8 @@
+<MSG_VesselData xmlns="urn:http://www.ivef.org/XMLSchema/IVEF/0.1.5">
+    <Header Version="0.1.5" MsgRefId="c30f8b9a-9ecc-4470-9ba8-0b0c80a95b19"/>
+    <Body>
+        <VesselData>
+            <StaticData Id="null" SourceName="spationav" Source="1" IMO="9451006" CountryFlag=""/>
+        </VesselData>
+    </Body>
+</MSG_VesselData>

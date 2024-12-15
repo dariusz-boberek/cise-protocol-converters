@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cise-protocol-converters</artifactId>
+        <groupId>eu.europa.ec.jrc.marex</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>kml-converter-library</artifactId>
+    <version>1.0.0</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <local.repo.base.dir>${project.basedir}/../</local.repo.base.dir>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>eu.europa.ec.jrc.marex</groupId>
+            <artifactId>cise-converters-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!-- EUCISE dependencies -->
+        <dependency>
+            <artifactId>cise-data-model</artifactId>
+            <groupId>eu.europa.ec.jrc.marex</groupId>
+        </dependency>
+
+        <dependency>
+            <artifactId>eucise-service-model</artifactId>
+            <groupId>eu.europa.ec.jrc.marex</groupId>
+        </dependency>
+
+        <dependency>
+            <artifactId>eucise-model-helpers</artifactId>
+            <groupId>eu.europa.ec.jrc.marex</groupId>
+        </dependency>
+        <!-- KML Dependencies -->
+        <dependency>
+            <groupId>de.micromata.jak</groupId>
+            <artifactId>JavaAPIforKml</artifactId>
+        </dependency>
+        <!-- Other dependencies -->
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+        </dependency>
+
+        <!-- Test dependencies -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

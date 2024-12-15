@@ -1,0 +1,16 @@
+<jxb:bindings xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+              version="2.1">
+
+    <jxb:bindings schemaLocation="xsd/xsd_0_1_5.xsd">
+        <jxb:bindings node="//xs:element[@name='PosReport']/xs:complexType/xs:attribute[@name='RateOfTurn']">
+            <jxb:property>
+                <jxb:baseType>
+                    <jxb:javaType name="java.lang.Double"
+                                  parseMethod="eu.cise.ivef.DoubleNaNAdapter.parse"
+                                  printMethod="eu.cise.ivef.DoubleNaNAdapter.print"/>
+                </jxb:baseType>
+            </jxb:property>
+        </jxb:bindings>
+    </jxb:bindings>
+</jxb:bindings>

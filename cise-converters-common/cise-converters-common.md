@@ -1,0 +1,2 @@
+# CISE Converters Common
+This project contains the main Exception used by the Coverters libraries (ConversionException) and also holds the utility classes used to convert an InputStream into a Stream and basic CISE vessel manipulation utility methods in the Utils class 

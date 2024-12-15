@@ -1,0 +1,47 @@
+<MSG_VesselData xmlns="urn:http://www.ivef.org/XMLSchema/IVEF/0.1.5">
+    <Header Version="0.1.5" MsgRefId="c30f8b9a-9ecc-4470-9ba8-0b0c80a95b19"/>
+    <Body>
+        <VesselData>
+            <PosReport Id="1" SourceId="1" UpdateTime="2000-01-01T00:00:00.001Z" SOG="8.0" COG="8.0" Lost="no">
+                <Pos Lat="1.0" Long="1.0"/>
+            </PosReport>
+            <!-- //INFO: for value 0 we have unique mapping -->
+            <Voyage Id="e8661f28-a249-491d-80ec-7cca213053ed" SourceName="spationav" Source="2" CargoType="0"/>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+        <VesselData>
+            <PosReport Id="2" SourceId="1" UpdateTime="2000-01-01T00:00:00.001Z" SOG="8.0" COG="8.0" Lost="no">
+                <Pos Lat="1.0" Long="1.0"/>
+            </PosReport>
+            <!-- //INFO: for value 40 we have unique mapping -->
+            <Voyage Id="e8661f28-a249-491d-80ec-7cca213053ed" SourceName="spationav" Source="2" CargoType="1"/>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+        <VesselData>
+            <PosReport Id="3" SourceId="1" UpdateTime="2000-01-01T00:00:00.001Z" SOG="8.0" COG="8.0" Lost="no">
+                <Pos Lat="1.0" Long="1.0"/>
+            </PosReport>
+            <!-- //INFO: for value 3 we map in cise to default but would like to have rich ivef data in cise metadata -->
+            <Voyage Id="e8661f28-a249-491d-80ec-7cca213053ed" SourceName="spationav" Source="2" CargoType="3"/>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+        <VesselData>
+            <PosReport Id="4" SourceId="1" UpdateTime="2000-01-01T00:00:00.001Z" SOG="8.0" COG="8.0" Lost="no">
+                <Pos Lat="1.0" Long="1.0"/>
+            </PosReport>
+            <!-- //INFO: for value 4 we map in cise to default but would like to have rich ivef data in cise metadata -->
+            <Voyage Id="e8661f28-a249-491d-80ec-7cca213053ed" SourceName="spationav" Source="2" CargoType="4"/>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+        <VesselData>
+            <PosReport Id="5" SourceId="1" UpdateTime="2000-01-01T00:00:00.001Z" SOG="8.0" COG="8.0" Lost="no">
+                <Pos Lat="1.0" Long="1.0"/>
+            </PosReport>
+            <!-- //INFO: for value 9 we have both sides defauls case - only 1 distinct row can be default also for whole mapping -->
+            <Voyage Id="e8661f28-a249-491d-80ec-7cca213053ed" SourceName="spationav" Source="2" CargoType="9"/>
+            <TaggedItem Key="creationDate" Value="2022-08-09T15:39:20.148Z"/>
+        </VesselData>
+    </Body>
+</MSG_VesselData>
+
+

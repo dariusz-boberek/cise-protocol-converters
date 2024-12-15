@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MSG_VesselData xmlns="urn:http://www.ivef.org/XMLSchema/IVEF/0.1.5">
+    <Header Version="0.1.5" MsgRefId="c30f8b9a-9ecc-4470-9ba8-0b0c80a95b19"/>
+    <Body>
+        <VesselData>
+            <StaticData Id="9074729" Source="1" Length="30.0" Callsign="MTDM5" ShipName="ABERIII" ShipType="80" IMO="9074729" MMSI="232000000" SourceName="source-name"/>
+            <Voyage Id="9074729" SourceName="9074729" Source="1" CargoType="0" />
+            <Voyage Id="9074730" SourceName="9074729" Source="1" CargoType="1"/>
+            <Voyage Id="9074731" SourceName="9074729" Source="1" CargoType="2"/>
+        </VesselData>
+    </Body>
+</MSG_VesselData>
